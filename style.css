@@ -29,6 +29,15 @@ body {
     display: none;
 }
 
+.cancel {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    color: white;
+    cursor: pointer;
+    opacity: .6;
+}
+
 .station-list-items {
     width: 100%;
     height: 50vh;
@@ -76,6 +85,17 @@ body {
 
 .station-selection-buttons i {
     font-size: 4.5rem;
+    cursor: pointer;
+}
+
+.station-play-skip i:hover {
+    color: blue;
+    font-size: 4.4rem;
+}
+
+.station-play-skip i:active {
+    color: blue;
+    font-size: 4.2rem;
 }
 
 .station-play-skip {
@@ -88,6 +108,8 @@ body {
     font-size: 4rem;
     color: white;
     margin: 0 10px;
+    cursor: pointer;
+    transition: all .2s ease;
 }
 
 header {
@@ -136,6 +158,7 @@ header {
 
 .station-icon-img {
     width: 18%;
+    transition: all .2s linear;
     animation: rotate 4s linear infinite;
 }
 
