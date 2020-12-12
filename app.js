@@ -14,19 +14,27 @@ window.onload = pauseSong()
 
 function playSong() {
     song.src = songs[currentSong]
-    song.play()
+    setTimeout(() => {
+        song.play()
+    }, 100)
 }
 
 function pauseSong() {
     song.src = songs[currentSong]
-    song.pause()
+    setTimeout(() => {
+        song.pause()
+    }, 100)
 }
 
 function togglePlayPause() {
     if (song.paused) {
-        song.play()
+        setTimeout(() => {
+            song.play()
+        }, 100)
     } else {
-        song.pause()
+        setTimeout(() => {
+            song.pause()
+        }, 100)
     }
 }
 
