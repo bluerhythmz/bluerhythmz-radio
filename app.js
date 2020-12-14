@@ -7,7 +7,7 @@ const skipButton = document.querySelector('.icon-music-end-button')
 const songState = document.getElementById('songState')
 
 
-let songs = ["brsongs/Akatsuki No Yona Hip Hop Remix.mp3", "brsongs/Blue Rhythmz - Naruto Bump.mp3", "brsongs/Final Fantasy 13 Battle Theme Remix.mp3", "brsongs/Inuyasha Kikyo Theme Remix.mp3",  "brsongs/Inuyasha Shinjitsu no Uta Remix.mp3", "brsongs/Marvel vs Capcom 2 Abyss Theme Remix.mp3", "brsongs/Marvel vs Capcom 2 Clock Tower House Remix.mp3", "brsongs/Ridge Racer Type 4 Garage Talk Remix.mp3", "brsongs/Sonic Unleashed Apotos Remix.mp3", "brsongs/Street Fighter 3 Gill Theme Remix.mp3", "brsongs/Street Fighter 3 Ibuki Hip Hop Remix.mp3", "brsongs/Street Fighter 3 Third Strike Akuma Remix.mp3", "brsongs/Street Fighter 3 Third Strike Makoto Remix.mp3", "brsongs/Street Fighter 3 Third Strike Necro Remix.mp3"]
+let songs = ["brSongs/Akatsuki No Yona Hip Hop Remix.mp3", "brSongs/Blue Rhythmz - Naruto Bump.mp3", "brSongs/Final Fantasy 13 Battle Theme Remix.mp3", "brSongs/Inuyasha Kikyo Theme Remix.mp3",  "brSongs/Inuyasha Shinjitsu no Uta Remix.mp3", "brSongs/Marvel vs Capcom 2 Abyss Theme Remix.mp3", "brSongs/Marvel vs Capcom 2 Clock Tower House Remix.mp3", "brSongs/Ridge Racer Type 4 Garage Talk Remix.mp3", "brSongs/Sonic Unleashed Apotos Remix.mp3", "brSongs/Street Fighter 3 Gill Theme Remix.mp3", "brSongs/Street Fighter 3 Ibuki Hip Hop Remix.mp3", "brSongs/Street Fighter 3 Third Strike Akuma Remix.mp3", "brSongs/Street Fighter 3 Third Strike Makoto Remix.mp3", "brSongs/Street Fighter 3 Third Strike Necro Remix.mp3"]
 let song = new Audio()
 
 let currentSong = Math.floor(Math.random() * songs.length)
