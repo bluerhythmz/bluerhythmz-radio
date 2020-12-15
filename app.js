@@ -62,10 +62,10 @@ playPause.addEventListener('click', () => {
 
 skipButton.addEventListener('click', () => {
     skipSong()
-    songState.textContent = songs[currentSong].replace('brsongs/', '').replace('.mp3', '')
+    songState.textContent = songs[currentSong].replace('./brSongs/', '').replace('.mp3', '')
 })
 
-songState.textContent = songs[currentSong].replace('brsongs/', '').replace('.mp3', '')
+songState.textContent = songs[currentSong].replace('./brSongs/', '').replace('.mp3', '')
 
 //future functionality add click event to close the stationlist by clicking outside of it
 /* document.addEventListener('click', (event) => {
